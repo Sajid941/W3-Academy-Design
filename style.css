@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-links li {
+    transition: 0.2s ease-in-out;
+}
+
+.nav-links li:hover {
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.banner-section {
+    background-image: url('https://i.postimg.cc/4NZtCwqj/Shiny-Overlay-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 64px);
+}
+
+.tutorial-links li {
+    padding: 10px;
+}
+
+.tutorial-links li:hover {
+    background-color: #ABB2BF;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.tutorial-links {
+    cursor: grab;
+}
+
+.tutorial-links::-webkit-scrollbar {
+    display: none;
+}
+
+
+.tutorial-links:active {
+    cursor: grabbing;
+}
+
+.tutorial-links-container {
+    background-image: url('https://i.postimg.cc/4NZtCwqj/Shiny-Overlay-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-content{
+    height: calc(100% - 42.5px);
+}
+
+/* Arafat */
+.footer{
+    background-image: url("https://i.postimg.cc/4NZtCwqj/Shiny-Overlay-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+} 
